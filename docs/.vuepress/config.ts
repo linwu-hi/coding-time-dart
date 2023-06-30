@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
-const base = process.env["BASE"] ? '/':'/coding-time-dart/'
+const base = process.env["BASE"] ? '/dart':'/coding-time-dart/'
 
 
 
