@@ -1,13 +1,12 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
-const base = process.env["BASE"] ? '/dart':'/coding-time-dart/'
+const base = process.env["BASE"] ? '/dart/':'/coding-time-dart/'
 
 
 
 export default defineUserConfig({
   base,
-
   dest: "./dist",
   head:[
     ['link', { rel: 'icon', href: '/assets/image/icon.png' }]
