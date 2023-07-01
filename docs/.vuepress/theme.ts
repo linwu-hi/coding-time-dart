@@ -3,7 +3,7 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 const hostname =
-  process.env["HOSTNAME"] || "https://www.coding-dart.cn";
+  process.env["HOSTNAME"] || "https://www.coding-time.cn";
 
 export default hopeTheme(
   {
