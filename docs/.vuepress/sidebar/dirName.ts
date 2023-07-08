@@ -50,7 +50,7 @@ export const dirName ={
         text:'Flutter与Dart实战',
         // collapsible:true,
         prefix:'flutter/',
-        link:'practice/简介',
+        link:'flutter/简介',
         children:[
           '简介',
           '配置',

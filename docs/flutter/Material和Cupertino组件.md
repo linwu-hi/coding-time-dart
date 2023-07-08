@@ -70,9 +70,7 @@ Card(
 )
 ```
 
-了解更多：[Card组件文档](https://api.flutter.dev
-
-/flutter/material/Card-class.html)
+了解更多：[Card组件文档](https://api.flutter.dev/flutter/material/Card-class.html)
 
 以上只是一些常用的Material Design组件示例，Flutter提供了更多丰富的组件和功能，你可以根据需要选择适当的组件来构建漂亮的用户界面。
 

@@ -108,9 +108,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
 
 在这段代码中，我们创建了一个`TodoListScreen`类作为任务列表页面，它是一个有状态的小部件。在`build`方法中，我们使用`Scaffold`和`ListView.builder`来显示所有的任务，并为每个任务提供了标题、描述和完成状态的展示。
 
-我们还实现了`_navigateToEdit
-
-Screen`方法，用于导航到任务编辑页面。当用户点击某个任务时，会跳转到任务编辑页面并将对应的任务传递过去。
+我们还实现了`_navigateToEditScreen`方法，用于导航到任务编辑页面。当用户点击某个任务时，会跳转到任务编辑页面并将对应的任务传递过去。
 
 ## 步骤 4：创建任务编辑页面
 
@@ -220,13 +218,10 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
 flutter run
 ```
 
-Flutter将在模拟器或设备上运行应用程序，并显示任务列表界面。您可以点击浮动按钮添加新的
-
-任务，点击任务列表项编辑任务的标题、描述和完成状态。
+Flutter将在模拟器或设备上运行应用程序，并显示任务列表界面。您可以点击浮动按钮添加新的任务，点击任务列表项编辑任务的标题、描述和完成状态。
 
 ## 参考资料
 
 - [Dart官方文档](https://dart.dev/guides)
 - [Flutter官方文档](https://flutter.dev/docs)
 - [Flutter实战教程](https://flutter.dev/docs/cookbook)
-

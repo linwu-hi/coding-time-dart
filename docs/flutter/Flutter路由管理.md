@@ -39,9 +39,7 @@ routes: {
 Navigator.pushNamed(context, '/details');
 ```
 
-命名路由需要在应用程序的顶
-
-层指定，然后可以使用`Navigator.pushNamed`方法导航到特定的命名路由。
+命名路由需要在应用程序的顶层指定，然后可以使用`Navigator.pushNamed`方法导航到特定的命名路由。
 
 ### 3. **PageRouteBuilder**
 
